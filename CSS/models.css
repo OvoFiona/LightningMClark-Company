@@ -1,0 +1,102 @@
+nav{
+    background-color: rgb(7, 7, 7);
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    color: grey;
+    text-decoration: none;
+}
+
+.text-overlay{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(248, 250, 248);
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Hide images by default */
+.mySlides {
+    display: none;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Hover effects on buttons */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+h1{
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
